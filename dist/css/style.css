@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(/Win11SourceCode/bg.jpeg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.taskbar {
+  position: absolute;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #F3F3F3;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.taskbar .right {
+  position: absolute;
+  right: 0;
+  height: inherit;
+}
+
+.windows-icon {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 18%;
+  left: 33rem;
+  cursor: pointer;
+}
+
+.startmenu {
+  display: inline-block;
+  margin: 4px;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 31rem;
+  transform: translateY(38rem);
+  transition: transform 0.2s ease;
+  z-index: 1;
+}
+.startmenu img {
+  width: 33em;
+  height: 35em;
+  border-radius: 11px;
+}/*# sourceMappingURL=style.css.map */
